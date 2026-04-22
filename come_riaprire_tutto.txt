@@ -13,7 +13,8 @@ Chiudi.
 - Apri VS Code e installa l'estensione **Python** (di Microsoft):
 - Ctrl+Shift+X → cerca "Python" → installa
 
-3. Installa LM Studio
+3. Installa LM Studio--->a ollama ollama pull qwen2.5:1.5b per installare l'ai
+
 - Vai su **lmstudio.ai**
 - Scarica e installa normalmente
 - Apri LM Studio
