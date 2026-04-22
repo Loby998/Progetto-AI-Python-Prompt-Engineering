@@ -1,41 +1,33 @@
-1. Installa Python
+📦 INSTALLAZIONE DEL PROGETTO – VERSIONE OLLAMA
 
-Vai su python.org/downloads
-Scarica l'ultima versione (3.x)
-Durante l'installazione spunta "Add Python to PATH" ⚠️ importante!
-Verifica che funzioni aprendo il terminale e scrivendo:
-python --version
-Chiudi.
+1️⃣ Installa Python
+- Vai su https://python.org/downloads
+- Scarica l’ultima versione (Python 3.x)
+- Durante l’installazione spunta “Add Python to PATH”
+- Verifica l’installazione aprendo il terminale e scrivendo:
+  python --version
 
-2. Installa VS Code
-- Vai su **code.visualstudio.com**
-- Scarica e installa normalmente
-- Apri VS Code e installa l'estensione **Python** (di Microsoft):
-- Ctrl+Shift+X → cerca "Python" → installa
+2️⃣ Installa Visual Studio Code
+- Vai su https://code.visualstudio.com
+- Installa normalmente
+- Apri VS Code → premi Ctrl+Shift+X → cerca “Python” → installa l’estensione ufficiale Microsoft
 
-3. Installa LM Studio--->a ollama ollama pull qwen2.5:1.5b per installare l'ai
+3️⃣ Installa Ollama
+- Vai su https://ollama.com
+- Scarica e installa
+- Apri il terminale e installa il modello necessario al progetto:
+  ollama pull qwen2.5:1.5b-instruct
 
-- Vai su **lmstudio.ai**
-- Scarica e installa normalmente
-- Apri LM Studio
-- Vai nella sezione **Discover** (icona 🔍) e cerca:
-  qwen2.5 1.5b instruct
+4️⃣ Installa la libreria Python richiesta dal progetto
+Apri il terminale (o quello integrato in VS Code) e scrivi:
+  pip install requests
 
-Scaricalo (circa 1,46 GB) -> quello più downloadato
+5️⃣ Avvio del progetto
+- Apri VS Code
+- Apri la cartella del progetto
+- Apri il file: valutatore_risposte.py
+- Assicurati che Ollama sia avviato (si avvia automaticamente)
+- Esegui il programma con:
+  python valutatore_risposte.py
 
-
-4. Installa la libreria requests
-Apri il terminale (anche quello di VS Code) e scrivi:
-pip install requests
-
-5. Ogni volta che vuoi usare il programma
-Step 1 — Apri LM Studio:
-
-Vai su Local Server (icona <-> a sinistra)
-Seleziona il modello Qwen2.5 e caricalo
-Premi Start Server
-
-Step 2 — Apri VS Code:
-Apri il file validatore_risposte.py dentro la cartella zippata allegata alla mail
-Apri il terminale di vs code e scrivi:
-python valutatore_risposte.py
+Il sistema ora è pronto per generare 5 risposte, valutarle e scegliere la migliore.
