@@ -16,7 +16,7 @@
 - Vai su https://ollama.com
 - Scarica e installa
 - Apri il terminale e installa il modello necessario al progetto:
-  ollama pull qwen2.5:1.5b-instruct
+  gpt-oss:20b
 
 4️⃣ Installa la libreria Python richiesta dal progetto
 Apri il terminale (o quello integrato in VS Code) e scrivi:
