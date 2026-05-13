@@ -12,22 +12,17 @@
 - Installa normalmente
 - Apri VS Code → premi Ctrl+Shift+X → cerca “Python” → installa l’estensione ufficiale Microsoft
 
-3️⃣ Installa Ollama
-- Vai su https://ollama.com
-- Scarica e installa
-- Apri il terminale e installa il modello necessario al progetto:
-  gpt-oss:20b
-
-4️⃣ Installa la libreria Python richiesta dal progetto
+3️⃣ Installa la libreria Python richiesta dal progetto
 Apri il terminale (o quello integrato in VS Code) e scrivi:
   pip install requests
 
-5️⃣ Avvio del progetto
+4️⃣ Avvio del progetto
 - Apri VS Code
 - Apri la cartella del progetto
-- Apri il file: valutatore_risposte.py
-- Assicurati che Ollama sia avviato (si avvia automaticamente)
+- Apri il file:  main.py o interfaccia.py
 - Esegui il programma con:
-  python valutatore_risposte.py
+  python main.py 
+  oppure
+  python interfaccia.py
 
 Il sistema ora è pronto per generare 5 risposte, valutarle e scegliere la migliore.
