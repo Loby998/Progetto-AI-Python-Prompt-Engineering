@@ -19,10 +19,8 @@ Apri il terminale (o quello integrato in VS Code) e scrivi:
 4️⃣ Avvio del progetto
 - Apri VS Code
 - Apri la cartella del progetto
-- Apri il file:  main.py o interfaccia.py
+- Apri il file:  MainBeeAI.py
 - Esegui il programma con:
-  python main.py 
-  oppure
-  python interfaccia.py
+  python MainBeeAI.py 
 
 Il sistema ora è pronto per generare 5 risposte, valutarle e scegliere la migliore.
