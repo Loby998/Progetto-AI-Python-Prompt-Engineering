@@ -15,6 +15,7 @@
 3️⃣ Installa la libreria Python richiesta dal progetto
 Apri il terminale (o quello integrato in VS Code) e scrivi:
   pip install requests
+  pip install customtkinter
 
 4️⃣ Avvio del progetto
 - Apri VS Code
